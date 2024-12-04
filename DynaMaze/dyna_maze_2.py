@@ -29,7 +29,6 @@ class DynaMaze(gym.Env):
     wall = np.empty((0,2))
     print("my size is:", SIZE)
     map = np.zeros([6, 9])
-    map[0, 2] = 1
     map[4, 2] = map[5, 2] = 1
     map[1, 2] = map[2, 2] = 1
     map[4, 5] = 1
