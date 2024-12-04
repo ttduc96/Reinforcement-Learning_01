@@ -31,7 +31,7 @@ class DynaMaze(gym.Env):
     map = np.zeros([6, 9])
     map[4, 2] = map[5, 2] = 1
     map[1, 2] = map[2, 2] = 1
-    map[4, 5] = 1
+    map[5, 5] = 1
     map[0, 7] = map[1, 7] = map[2, 7] = 1
     print(map)
     for row in range(SIZE[0]):
